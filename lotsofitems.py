@@ -3,13 +3,13 @@ from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Categories, CategoryItem, User
 
 # Create database and create a shortcut for easier to update database
-engine = create_engine('sqlite:///catalogs.db')
+engine = create_engine("postgresql://cataloguser:topsecret@localhost/catalogdb")
 Base.metadata.bind = engine
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
 
 # Create dummy user
-User1 = User(name="khayati", email="khayati.iteb@gmail.com")
+User1 = User(name="Mohamed Karim Oueslati", email="wesleti.mk@gmail.com")
 session.add(User1)
 session.commit()
 
