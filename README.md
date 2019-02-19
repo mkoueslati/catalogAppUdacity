@@ -226,7 +226,7 @@ from project import app as application
 ```
 * Enable our virtual host.
 ```sh
-~ $ sudo a2ensite CatalogApp-Udacity
+~ $ sudo a2ensite catalogAppUdacity
 ```
 * Restart Apache
 ```sh
