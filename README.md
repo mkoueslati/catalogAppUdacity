@@ -233,4 +233,4 @@ from project import app as application
 ~ $ sudo apache2ctl restart
 ```
 ##### 10. Finish
-* try our [IP address](18.185.240.165) again to test out our application
+* try our [IP address](http://18.185.240.165.nip.io) again to test out our application
